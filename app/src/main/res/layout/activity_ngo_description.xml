@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="ciit.com.abdullah.donateforlife2.NGOs.Ngo_Description">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textAllCaps="false"
+                android:paddingLeft="20dp"
+                android:text="Shaukat Khanum"
+                android:id="@+id/tv1_name"/>
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shaukatkhanum_desc"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:padding="20dp"
+                    android:id="@+id/ngodesc_desc"
+                    android:layout_marginBottom="10dp"
+                    />
+            </ScrollView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Donate Now"
+                android:background="@drawable/button_b"
+                android:textColor="@color/white"
+                android:layout_marginLeft="45dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="45dp"
+                android:shadowRadius="4"
+                android:id="@+id/ngodesc_donate"
+                android:layout_marginBottom="40dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

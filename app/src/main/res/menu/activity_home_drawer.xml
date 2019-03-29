@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homes"
+            android:title="Home"
+            android:icon="@drawable/house"
+            android:iconTint="@color/black"/>
+        <item
+            android:id="@+id/NGOss"
+            android:title="NGOs"
+            android:icon="@drawable/ngo"
+            android:iconTint="@color/black"/>
+        <item
+            android:id="@+id/Requestss"
+            android:title="Crowd Funding"
+            android:icon="@drawable/crowdfunding"
+            android:iconTint="@color/black"/>
+        <item
+            android:id="@+id/Profiles"
+            android:title="Profile"
+            android:icon="@drawable/profile"
+            android:iconTint="@color/black"/>
+        <item
+            android:id="@+id/Logouts"
+            android:title="Logout"
+            android:icon="@drawable/logout"
+            android:iconTint="@color/black"/>
+    </group>
+</menu>
